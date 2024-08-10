@@ -9,9 +9,7 @@ class Calculator(QMainWindow):
         self.setWindowTitle("Modern Calculator")
         self.setFixedSize(400, 600)
         self.setStyleSheet("background-color: #2c2c2c;")
-
         self.generalLayout = QVBoxLayout()
-
         self._centralWidget = QWidget(self)
         self.setCentralWidget(self._centralWidget)
         self._centralWidget.setLayout(self.generalLayout)
